@@ -1,0 +1,33 @@
+{
+    "name": "react-fundamentals",
+    "version": "0.0.1",
+    "description": "Building Web Application with React and Express",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "dev-server": "webpack-dev-server"
+    },
+    "keywords": [
+        "React.js",
+        "Express",
+        "Node.js",
+        "MongoDB"
+    ],
+    "author": "Nullgom Won",
+    "license": "MIT",
+    "dependencies": {
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1"
+    },
+    "devDependencies": {
+        "babel": "^6.23.0",
+        "babel-cli": "^6.24.1",
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.1.1",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "react-hot-loader": "^1.3.1",
+        "webpack": "^1.15.0",
+        "webpack-dev-server": "^1.16.5"
+    }
+}
